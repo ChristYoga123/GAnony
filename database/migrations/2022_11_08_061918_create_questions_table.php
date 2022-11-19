@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained();
             $table->longText('question');
-            $table->longText('answer')->nullable();
             $table->boolean('is_read')->default(false);
             $table->timestamps();
         });

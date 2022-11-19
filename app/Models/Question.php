@@ -13,7 +13,6 @@ class Question extends Model
     protected $fillable = [
         'user_id',
         'question',
-        'reply',
         'is_read'
     ];
 
